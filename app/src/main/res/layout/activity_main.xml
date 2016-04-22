@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:background="@drawable/intro">
+		<Button
+		    android:id="@+id/Start"
+		    android:layout_width="180.0dip"
+		    android:layout_height="50.0dip"
+		    android:layout_y="280.0dp"
+		    android:layout_x="88.0dp" 
+		    android:background="@drawable/start" />
+		<Button
+		    android:id="@+id/Score"
+		    android:layout_width="180.0dip"
+		    android:layout_height="50.0dip"
+		    android:layout_y="360.0dip"
+		    android:layout_x="88.0dip" 
+		    android:background="@drawable/point" />
+		<Button
+		    android:id="@+id/_Exit"
+		    android:layout_width="180.0dip"
+		    android:layout_height="50.0dip"
+		    android:layout_y="440.0dip"
+		    android:layout_x="88.0dip" 
+		    android:background="@drawable/exit" />
+	</AbsoluteLayout>
